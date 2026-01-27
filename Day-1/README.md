@@ -24,7 +24,7 @@ Setelah semua sudah di download berikut langkah -- langkah installasinya :
 
 1.  Pertama Buka Virtualbox yang sudah terinstall dan klik New Virtual Machine
 
-![](./images/media/image1.png){width="6.268055555555556in" height="4.782638888888889in"}
+![](./images/media/image1.png)
 
 - Isi VM Name dengan nama server
 
@@ -38,31 +38,31 @@ Setelah semua sudah di download berikut langkah -- langkah installasinya :
 
 Di sini saya ingin menggunakan base memory 2GB dan CPU 2 core
 
-![](./images/media/image2.png){width="6.268055555555556in" height="2.0680555555555555in"}
+![](./images/media/image2.png)
 
 3.  Klik Specify virtual hardisk
 
 Di sini saya ingin menggunakan 10 GB storage untuk penyimpanan VM saya
 
-![](./images/media/image3.png){width="6.268055555555556in" height="4.778472222222222in"}
+![](./images/media/image3.png)
 
 4.  Jika set up sudah selesai klik Finish dan Klik Start untuk menjalankan installasi server pada VirtualBox
 
 5.  Pilih bahasa English
 
-![](./images/media/image4.png){width="6.268055555555556in" height="4.497916666666667in"}
+![](./images/media/image4.png)
 
 6.  Pilih continue without updating
 
-![](./images/media/image5.png){width="6.268055555555556in" height="5.1715277777777775in"}
+![](./images/media/image5.png)
 
 7.  Pilih konfigurasi keyboard English dan pilih Done
 
-![](./images/media/image6.png){width="6.268055555555556in" height="5.25in"}
+![](./images/media/image6.png)
 
 8.  Pilih centang Ubuntu Server dan pilih Done
 
-![](./images/media/image7.png){width="6.268055555555556in" height="5.228472222222222in"}
+![](./images/media/image7.png)
 
 9.  Konfigurasi jaringan agar VM dapat mengakses internet. Atur manual agar nantinya VM dapat di Akses dari komputer luar. Cara Setting jaringan adalah sebagai berikut.
 
@@ -70,17 +70,17 @@ Di sini saya ingin menggunakan 10 GB storage untuk penyimpanan VM saya
 
 - Cek & Cari IPv4 kamu
 
-![](./images/media/image8.png){width="4.625645231846019in" height="2.792055993000875in"}
+![](./images/media/image8.png)
 
-![](./images/media/image9.png){width="6.268055555555556in" height="2.265972222222222in"}
+![](./images/media/image9.png)
 
 - Jika sudah ketemu, masuk ke setting IPv4 di VM nya dan pilih edit IPv4
 
-![](./images/media/image10.png){width="6.268055555555556in" height="2.4472222222222224in"}
+![](./images/media/image10.png)
 
 - Pilih Manual
 
-![](./images/media/image11.png){width="6.268055555555556in" height="3.629166666666667in"}
+![](./images/media/image11.png)
 
 - Isi Subnet dengan yang sesuai dengan jaringan asli, yaitu 192.168.18.0
 
@@ -92,50 +92,50 @@ Di sini saya ingin menggunakan 10 GB storage untuk penyimpanan VM saya
 
 - Setelah semua sudah terisi pilih Save
 
-![](./images/media/image12.png){width="6.268055555555556in" height="4.607638888888889in"}
+![](./images/media/image12.png)
 
 - Lalu pilih Done\
-  ![](./images/media/image13.png){width="6.268055555555556in" height="5.131944444444445in"}
+  ![](./images/media/image13.png)
 
 10. Kofigurasi Proxy kosongkan/skip, pilih Done\
-    ![](./images/media/image14.png){width="6.268055555555556in" height="5.076388888888889in"}
+    ![](./images/media/image14.png)
 
 11. Konfigurasi Ubuntu Archive mirror, skip pilih Done dan Continue
 
-![](./images/media/image15.png){width="6.268055555555556in" height="5.1875in"}
+![](./images/media/image15.png)
 
 12. Konfigurasi storage, pilih custom sotrage layout agar dapat menyesuaikan partisi VM kita nanti, pilih done
 
-![](./images/media/image16.png){width="6.268055555555556in" height="5.136111111111111in"}
+![](./images/media/image16.png)
 
 - Atur storage, tambahkan partisi GPT di sini saya pakai 7 GB, lalu pilih create
 
-![](./images/media/image17.png){width="6.268055555555556in" height="5.122222222222222in"}
+![](./images/media/image17.png)
 
 - Kemudian untuk sisa space yang masih tersedia saya tambah partisi untuk Swap (ini berfungsi sebagai penambah RAM sementara, jika RAM VM penuh). Pilih Create
 
-![](./images/media/image18.png){width="6.268055555555556in" height="5.120833333333334in"}
+![](./images/media/image18.png)
 
 - Setelah konfigurasi penyimpanan selesai, pilih Done lalu Continue
 
-![](./images/media/image19.png){width="6.268055555555556in" height="5.096527777777778in"}
+![](./images/media/image19.png)
 
 13. Konfigurasi profil, isi profile konfiguration dan pilih Done
 
-![](./images/media/image20.png){width="6.268055555555556in" height="5.168055555555555in"}
+![](./images/media/image20.png)
 
 - SSH konfiguration, di sini saya memilih tidak menginstall open SSH, saya menginstall Ubuntu secara bersih. Pilih Done
 
-![](./images/media/image21.png){width="6.268055555555556in" height="5.172916666666667in"}
+![](./images/media/image21.png)
 
 - Tunggu proses installasi selesai.
 
 14. Setelah Installasi Selesai, pilih reboot
 
-![](./images/media/image22.png){width="6.268055555555556in" height="5.153472222222222in"}
+![](./images/media/image22.png)
 
 15. Login Server VM dengan username dan password yang sudah di setting di profil konfiguration sebelumnya. Kemudian cek koneksi dengan perintah "ping 8.8.8.8".
 
-![](./images/media/image23.png){width="6.268055555555556in" height="5.20625in"}
+![](./images/media/image23.png)
 
-![](./images/media/image24.png){width="5.354913604549432in" height="1.8648436132983377in"}
+![](./images/media/image24.png)
