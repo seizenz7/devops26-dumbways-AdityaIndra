@@ -109,7 +109,7 @@ Langkah – langkah :
 <img src="images/media/image12.png" style="width:4.70899in;height:0.78136in" />
 
 13. Verifikasi apakah load balancing sudah berhasil. Di sini saya test dengan cara mengakses alamat domain server load balancer menggunakan web browser dan melakukan refresh beberapa kali untuk melihat apakah browser menampilkan tampilan server 1 dan server 2 secara bergantian.
-
+[Video Demo](images/media/Test.mp4)
 <video autoplay loop muted playsinline>
   <source src="images/media/Test.mp4" type="video/mp4">
 </video>
