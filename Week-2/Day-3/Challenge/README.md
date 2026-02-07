@@ -110,6 +110,6 @@ Langkah – langkah :
 
 13. Verifikasi apakah load balancing sudah berhasil. Di sini saya test dengan cara mengakses alamat domain server load balancer menggunakan web browser dan melakukan refresh beberapa kali untuk melihat apakah browser menampilkan tampilan server 1 dan server 2 secara bergantian.
 [Video Demo](images/media/Test.mp4)
-<video autoplay loop muted playsinline>
-  <source src="images/media/Test.mp4" type="video/mp4">
-</video>
+
+[![Tonton videonya](https://raw.githubusercontent.com/seizenz7/devops26-dumbways-AdityaIndra/main/Week-2/Day-3/Challenge/images/media/image13.gif)](https://raw.githubusercontent.com//seizenz7/devops26-dumbways-AdityaIndra/main/Week-2/Day-3/Challenge/images/media/Test.mp4)
+
